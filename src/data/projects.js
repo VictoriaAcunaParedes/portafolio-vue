@@ -6,26 +6,34 @@
 export const projects = [
         {
             title: 'RESTAURANTCITO',
-            description: 'Proyecto realizado para clases de front-end trainne. Con HTML5, CSS3, Bootstrap5.',
+            description: 'Plataforma interactiva para la gestion de pedidos y reservas.',
             image: restaurancito,
-            repo: 'https://github.com/VictoriaAcunaParedes/restaurant'
+            repo: 'https://github.com/VictoriaAcunaParedes/restaurant',
+            demo: '#',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5']
         },
         {
             title: 'SMART TRAVEL',
-            description: 'Desarrollo de pagina de viajes, utilizando HTML5, CSS3, Bootstrap5.',
+            description: 'Landing page para agencia de viajes con diseño responsivo',
             image: smartTravel,
-            repo: ''
+            repo: '#',
+            demo: '#',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5']
         },
         {
             title: 'DAILY WEATHER',
-            description: 'Desarrollo de pagina de registro del clima diario, utilizando HTML5, CSS3, Bootstrap5.',
+            description: 'Aplicacion de registro climatico con gestion de formularios.',
             image: dailyWeather,
-            repo: 'https://github.com/VictoriaAcunaParedes/daily-weather'
+            repo: 'https://github.com/VictoriaAcunaParedes/daily-weather',
+            demo: '#',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript']
         },
         {
             title: 'CUPPON',
-            description: 'Desarrollo de pagina venta de cupones.',
+            description: 'E-commerce de cupones con maquetacion avanzada.',
             image: cuppon,
-            repo: 'https://github.com/VictoriaAcunaParedes/tienda-cuppon'
+            repo: 'https://github.com/VictoriaAcunaParedes/tienda-cuppon',
+            demo: '#',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5']
         }
     ]
