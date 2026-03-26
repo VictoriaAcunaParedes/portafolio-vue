@@ -1,6 +1,8 @@
 <template>
   <AppNavbar />
-  <router-view />
+  <main class="main-content">
+    <router-view />
+  </main>
   <AppFooter />
 </template>
 
@@ -10,4 +12,9 @@ import AppFooter from './components/AppFooter.vue'
 </script>
 
 
-<style scoped></style>
+<style scoped>
+.main-content {
+  padding-top: 80px;
+}
+
+</style>

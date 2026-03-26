@@ -33,9 +33,6 @@
 </script>
 
 <style scoped>
-.proyectos {
-    padding: 70px;
-}
 
 .fade-list-enter-active,
 .fade-list-leave-active {

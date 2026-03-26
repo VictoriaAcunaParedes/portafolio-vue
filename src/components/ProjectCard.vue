@@ -54,17 +54,35 @@
         overflow: hidden;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
+        background-color: #000;
+    }
+
+    .img-container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 20, 147, 0.2);
+        mix-blend-mode: multiply; 
+        opacity: 1;
+        transition: opacity 0.4s ease;
+        pointer-events: none; 
     }
 
     .card-img-top {
         width: 100%;
         height: auto;
         display: block;
-        transition: transform 0.5s ease;
+        filter: grayscale(100%) brightness(0.8);
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+                    filter 0.6s ease;
     }
 
     .project-card:hover .card-img-top {
-        transform: scale(1.1);
+        transform: scale(1.05);
+        filter: grayscale(0%) brightness(1);
     }
 
     .overlay {
