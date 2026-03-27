@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^7.2.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
+    "firebase": "^12.11.0",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
   },

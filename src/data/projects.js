@@ -12,15 +12,15 @@ export const projects = [
             description: 'Plataforma interactiva para la gestion de pedidos y reservas.',
             image: restaurancito,
             repo: 'https://github.com/VictoriaAcunaParedes/restaurant-vue',
-            demo: '#',
-            tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'Vue 3']
+            demo: 'https://restaurantcito-73e38.web.app/',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'Vue3']
         },
         {
             title: 'SMART TRAVEL',
             description: 'Landing page para agencia de viajes con diseño responsivo',
             image: smartTravel,
             repo: 'https://github.com/VictoriaAcunaParedes/smart-travel',
-            demo: '#',
+            demo: 'https://victoriaacunaparedes.github.io/smart-travel/',
             tags: ['HTML5', 'CSS3', 'Bootstrap 5']
         },
         {
@@ -28,7 +28,7 @@ export const projects = [
             description: 'Aplicacion de registro climatico con gestion de formularios.',
             image: dailyWeather,
             repo: 'https://github.com/VictoriaAcunaParedes/daily-weather',
-            demo: '#',
+            demo: 'https://victoriaacunaparedes.github.io/daily-weather/',
             tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript']
         },
         {
@@ -36,7 +36,7 @@ export const projects = [
             description: 'Aplicacion de personajes de serie con consumo de API.',
             image: rickmortyAPI,
             repo: 'https://github.com/VictoriaAcunaParedes/rick-and-morty-api',
-            demo: '#',
+            demo: 'https://victoriaacunaparedes.github.io/rick-and-morty-api/',
             tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'API']
         },
         {
@@ -44,15 +44,15 @@ export const projects = [
             description: 'App desarrollada con Vue.js consumiendo datos en tiempo real desde Open-Meteo API',
             image: wwapp,
             repo: 'https://github.com/VictoriaAcunaParedes/world-weather-app',
-            demo: '#',
-            tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'API']
+            demo: 'https://w-w-app.web.app/',
+            tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JS', 'Vue3', 'API']
         },
         {
             title: 'Movie Night',
             description: 'App desarrollada con Vue.js + database de Firebase para almacenaciemto de data peliculas',
             image: movieNight,
             repo: 'https://github.com/VictoriaAcunaParedes/Movie-Night',
-            demo: '#',
+            demo: 'https://movie-app-30f90.web.app/peliculas',
             tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'Firebase']
         },
         // {
@@ -60,7 +60,7 @@ export const projects = [
         //     description: 'E-commerce de cupones con maquetacion avanzada.',
         //     image: cuppon,
         //     repo: 'https://github.com/VictoriaAcunaParedes/tienda-cuppon',
-        //     demo: '#',
+        //     demo: 'https://victoriaacunaparedes.github.io/tienda-cuppon/',
         //     tags: ['HTML5', 'CSS3', 'Bootstrap 5']
         // }
     ]
